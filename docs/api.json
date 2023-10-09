@@ -6,10 +6,13 @@
         "types": [
           "Array"
         ]
+<<<<<<<+HEAD
       },
       {
         "type": "public",
         "string": ""
+=======
+>>>>>>> 1c07128... [docs] working on automatic documentation generation tool
       }
     ],
     "description": {
@@ -35,6 +38,7 @@
         "types": [
           "Array"
         ]
+<<<<<<<+HEAD
       },
       {
         "type": "public",
@@ -44,11 +48,22 @@
     "description": {
       "full": "<p>Test numbers from different credit card schemes. Most of them are taken from<br /><a href='http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm'>http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm</a></p>",
       "summary": "<p>Test numbers from different credit card schemes. Most of them are taken from<br /><a href='http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm'>http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm</a></p>",
+=======
+      }
+    ],
+    "description": {
+      "full": "<p>Test numbers from different creditcard schemes. Most of them are taken from<br /><a href='http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm'>http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm</a></p>",
+      "summary": "<p>Test numbers from different creditcard schemes. Most of them are taken from<br /><a href='http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm'>http://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/credit_card_numbers.htm</a></p>",
+>>>>>>>+1c07128
       "body": ""
     },
     "isPrivate": false,
     "ignore": false,
+<<<<<<<+HEAD
     "code": "exports.testnumbers = [\n    4000000000000002  // Recurly test number\n  , 4000000000000010  // Recurly test number\n  , 4000000000000028  // Recurly test number\n  , 4000000000000036  // Recurly test number\n  , 4000000000000044  // Recurly test number\n  , 4000000000000051  // Recurly test number\n  , 4000000000000077  // Recurly test number\n  , 4000000000000085  // Recurly test number\n  , 4000000000000093  // Recurly test number\n  , 4000000000000101  // Recurly test number\n  , 4000000000000119  // Recurly test number\n  , 4000000000000200  // Recurly test number\n  , 4222222222222222  // Recurly test number\n  , 4000000000000226  // Recurly test number\n  , 4000000000000309  // Recurly test number\n  , 4000000000000317  // Recurly test number\n  , 4000000000000325  // Recurly test number\n  , 4000000000000341  // Recurly test number\n  , 4222222222222     // visa\n  , 4012888888881881  // visa\n  , 4111111111111111  // visa\n  , 5105105105105100  // mastercard\n  , 5555555555554444  // mastercard\n  , 3566002020360505  // jbc\n  , 3530111333300000  // jbc\n  , 6011000990139424  // discover\n  , 6011111111111117  // discover\n  , 6011601160116611  // discover\n  , 38520000023237    // diners club\n  , 30569309025904    // diners club\n  , 378734493671000   // american express\n  , 371449635398431   // american express\n  , 378282246310005   // american express\n  , 341111111111111   // american express\n  , 5431111111111111  // mastercard\n  , 5610591081018250  // australian bank\n  , 5019717010103742  // dankort (pbs)\n  , 76009244561       // dankort (pbs)\n  , 6331101999990016  // switch/solo (paymentech)\n];",
+=======
+    "code": "exports.testnumbers = [\n    4222222222222     // visa\n  , 4012888888881881  // visa\n  , 4111111111111111  // visa\n  , 5105105105105100  // mastercard\n  , 5555555555554444  // mastercard\n  , 3566002020360505  // jbc\n  , 3530111333300000  // jbc\n  , 6011000990139424  // discover\n  , 6011111111111117  // discover\n  , 6011601160116611  // discover\n  , 38520000023237    // diners club\n  , 30569309025904    // diners club\n  , 378734493671000   // american express\n  , 371449635398431   // american express\n  , 378282246310005   // american express\n  , 341111111111111   // american express\n  , 5431111111111111  // mastercard\n  , 5610591081018250  // australian bank\n  , 5019717010103742  // dankort pbs\n  , 6331101999990016  // switch/solo paymentech\n];",
+>>>>>>>+1c07128
     "ctx": {
       "type": "property",
       "receiver": "exports",
@@ -65,11 +80,16 @@
           "String"
         ],
         "name": "number",
+<<<<<<<+HEAD
         "description": "Credit card number."
+=======
+        "description": ""
+>>>>>>>+1c07128
       },
       {
         "type": "returns",
         "string": "{String|Undefined}"
+<<<<<<<+HEAD
       },
       {
         "type": "api",
@@ -79,6 +99,13 @@
     "description": {
       "full": "<p>Find out which major card scheme issued the card based on the IIN range.</p>",
       "summary": "<p>Find out which major card scheme issued the card based on the IIN range.</p>",
+=======
+      }
+    ],
+    "description": {
+      "full": "<p>Find out which major card scheme issued the card based on the iin range.</p>",
+      "summary": "<p>Find out which major card scheme issued the card based on the iin range.</p>",
+>>>>>>>+1c07128
       "body": ""
     },
     "isPrivate": false,
@@ -99,6 +126,7 @@
           "String"
         ],
         "name": "number",
+<<<<<<<+HEAD
         "description": "Credit card number."
       },
       {
@@ -108,6 +136,13 @@
       {
         "type": "api",
         "visibility": "public"
+=======
+        "description": ""
+      },
+      {
+        "type": "returns",
+        "string": "{String} formatted version"
+>>>>>>>+1c07128
       }
     ],
     "description": {
@@ -117,7 +152,11 @@
     },
     "isPrivate": false,
     "ignore": false,
+<<<<<<<+HEAD
     "code": "exports.format = function format(number) {\n  number = (''+ number).replace(/\\D/g, '');\n\n  var index = 0\n    , pattern = /^(34|37)/.test(number)\n      ? 'XXXX XXXXXX XXXXX'     // American express has a different pattern.\n      : 'XXXX XXXX XXXX XXXX';  // All other credit cards.\n\n  return pattern.replace(/X/g, function replace(char) {\n    return number.charAt(index++) || '';\n  }).trim();\n};",
+=======
+    "code": "exports.format = function format(number) {\n  number = (''+ number).replace(/\\D/g, '');\n\n  var index = 0\n    , pattern = /^(34|37)/.test(number)\n      ? 'XXXX XXXXXX XXXXX'     // American express has a different pattern\n      : 'XXXX XXXX XXXX XXXX';  // All other credit cards\n\n  return pattern.replace(/X/g, function replace(char) {\n    return number.charAt(index++) || '';\n  }).trim();\n};",
+>>>>>>>+1c07128
     "ctx": {
       "type": "method",
       "receiver": "exports",
@@ -137,11 +176,16 @@
           "String"
         ],
         "name": "number",
+<<<<<<<+HEAD
         "description": "Credit card number we should validate."
+=======
+        "description": ""
+>>>>>>>+1c07128
       },
       {
         "type": "returns",
         "string": "{Boolean}"
+<<<<<<<+HEAD
       },
       {
         "type": "api",
@@ -151,6 +195,13 @@
     "description": {
       "full": "<p>Validates the credit card number using the Luhn10 algorithm.</p>",
       "summary": "<p>Validates the credit card number using the Luhn10 algorithm.</p>",
+=======
+      }
+    ],
+    "description": {
+      "full": "<p>Validates the creditcards using the Luhn10 algorithm.</p>",
+      "summary": "<p>Validates the creditcards using the Luhn10 algorithm.</p>",
+>>>>>>>+1c07128
       "body": ""
     },
     "isPrivate": false,
@@ -172,7 +223,11 @@
           "Number"
         ],
         "name": "month",
+<<<<<<<+HEAD
         "description": "Expiry month."
+=======
+        "description": ""
+>>>>>>>+1c07128
       },
       {
         "type": "param",
@@ -181,6 +236,7 @@
           "Number"
         ],
         "name": "year",
+<<<<<<<+HEAD
         "description": "Expiry year."
       },
       {
@@ -190,6 +246,16 @@
       {
         "type": "api",
         "visibility": "public"
+=======
+        "description": ""
+      },
+      {
+        "type": "return",
+        "types": [
+          "Boolean"
+        ],
+        "description": ""
+>>>>>>>+1c07128
       }
     ],
     "description": {
@@ -199,7 +265,11 @@
     },
     "isPrivate": false,
     "ignore": false,
+<<<<<<<+HEAD
     "code": "exports.expiry = function expiry(month, year) {\n  // number conversion.\n  month = +month;\n  year = +year;\n\n  // incorrect numbers should fail fast instantly\n  if (!month || !year || month > 12) return false;\n\n  var date = new Date()\n    , now = +date;\n\n  date.setFullYear(year);\n  date.setMonth(--month);\n\n  return +date >= now;\n};",
+=======
+    "code": "exports.expiry = function expiry(month, year) {\n  // number conversion\n  month = +month;\n  year = +year;\n\n  // incorrect numbers should fail fast\n  if (!month || year) return false;\n\n  var date = new Date()\n    , now = +date;\n\n  date.setFullYear(year);\n  date.setMonth(--month);\n\n  return +date >= now;\n};",
+>>>>>>>+1c07128
     "ctx": {
       "type": "method",
       "receiver": "exports",
@@ -215,6 +285,7 @@
           "String"
         ],
         "name": "number",
+<<<<<<<+HEAD
         "description": "Credit card number."
       },
       {
@@ -229,10 +300,26 @@
     "description": {
       "full": "<p>Applies PAN truncation to the given credit card. PAN (primary account number)<br />trunction simply replaces the credit-card number's digits by asterisks while<br />leaving the last 4 digits untouched. This hides the numbers from strangers<br />while still allowing the card holder with multiple cards to identify which<br />card was used.</p>",
       "summary": "<p>Applies PAN truncation to the given credit card. PAN (primary account number)<br />trunction simply replaces the credit-card number's digits by asterisks while<br />leaving the last 4 digits untouched. This hides the numbers from strangers<br />while still allowing the card holder with multiple cards to identify which<br />card was used.</p>",
+=======
+        "description": ""
+      },
+      {
+        "type": "return",
+        "types": [
+          "String"
+        ],
+        "description": "pan"
+      }
+    ],
+    "description": {
+      "full": "<p>Applies PAN truncation to the given creditcard. PAN (primary account number)<br />trunction is a \"technology\" that prevents most of the digits of a creditcard<br />from appearing on printed receipts.</p>",
+      "summary": "<p>Applies PAN truncation to the given creditcard. PAN (primary account number)<br />trunction is a \"technology\" that prevents most of the digits of a creditcard<br />from appearing on printed receipts.</p>",
+>>>>>>>+1c07128
       "body": ""
     },
     "isPrivate": false,
     "ignore": false,
+<<<<<<<+HEAD
     "code": "exports.truncate = exports.PANtruncate = function pan(number) {\n  number = (''+ number).replace(/\\D/g, '');\n\n  var length = number.length - 4\n    , pattern = exports.format(number);\n\n  return pattern.replace(/\\d/g, function replace(char) {\n    return length-- > 0\n      ? 'X'\n      : char;\n  });\n};",
     "ctx": {
       "type": "property",
@@ -240,6 +327,15 @@
       "name": "truncate",
       "value": "exports.PANtruncate = function pan(number) {",
       "string": "exports.truncate"
+=======
+    "code": "exports.pan = exports.PAN = function pan(number) {\n  number = (''+ number).replace(/\\D/g, '');\n\n  var length = number.length - 4\n    , pattern = exports.format(number);\n\n  return pattern.replace(/\\d/g, function replace(char) {\n    return length-- > 0\n      ? 'X'\n      : char;\n  });\n};",
+    "ctx": {
+      "type": "property",
+      "receiver": "exports",
+      "name": "pan",
+      "value": "exports.PAN = function pan(number) {",
+      "string": "exports.pan"
+>>>>>>>+1c07128
     }
   },
   {
@@ -250,6 +346,7 @@
           "String"
         ],
         "name": "number",
+<<<<<<<+HEAD
         "description": "Credit card number."
       },
       {
@@ -264,11 +361,27 @@
     "description": {
       "full": "<p>Parse the credit card information all at once.</p>",
       "summary": "<p>Parse the credit card information all at once.</p>",
+=======
+        "description": ""
+      },
+      {
+        "type": "returns",
+        "string": "{String}"
+      }
+    ],
+    "description": {
+      "full": "<p>Parse the creditcard information</p>",
+      "summary": "<p>Parse the creditcard information</p>",
+>>>>>>>+1c07128
       "body": ""
     },
     "isPrivate": false,
     "ignore": false,
+<<<<<<<+HEAD
     "code": "exports.parse = function parse(number) {\n  number = (''+ number).replace(/\\D/g, '');\n\n  var scheme = exports.cardscheme(number);\n\n  return {\n      iin: number.slice(0, 9)               // Issuer Identifier Number.\n    , mii: exports.mii[+number.charAt(0)]   // Major Industry Identifier.\n    , formatted: exports.format(number)     // Formatted version.\n    , cvv: scheme === 'American Express'\n        ? 4                                 // American Express requires 4 digits.\n        : 3                                 // All other credit cards.\n    , truncate: exports.truncate(number)    // PAN truncated version.\n    , scheme: scheme                        // Credit card scheme.\n    , validates: exports.validate(number)   // Does the credit card validate.\n  };\n};\n}(typeof exports !== 'undefined' ? exports : (creditcard = {})));",
+=======
+    "code": "exports.parse = function parse(number) {\n  number = (''+ number).replace(/\\D/g, '');\n\n  var scheme = exports.cardscheme(number);\n\n  return {\n      iin: number.slice(0, 9)               // Issuer Identifier Number\n    , mii: exports.mii[+number.charAt(0)]   // Major Industry Identifier\n    , formatted: exports.format(number)     // Formatted version\n    , cvv: scheme === 'American Express'\n        ? 4                                 // American Express requires 4 digits\n        : 3                                 // All other credit cards\n    , pan: exports.pan(number)              // PAN truncated version\n    , scheme: scheme                        // Creditcard scheme\n    , validates: exports.validate(number)   // Does the creditcard validate\n  };\n};\n}(typeof exports !== 'undefined' ? exports : (creditcard = {})));",
+>>>>>>>+1c07128
     "ctx": {
       "type": "method",
       "receiver": "exports",

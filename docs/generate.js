@@ -16,6 +16,7 @@ var template = fs.readFileSync(__dirname + '/api.ejs', 'utf8');
  * less logic in our template to display fancy pancy information.
  */
 var data = require('./api.json').map(function parse(jsdoc) {
+<<<<<<<+HEAD
   // check if we have param tags, this way we directly know if it's a function
   // or not
   jsdoc.params = jsdoc.tags.filter(function tags(tag) {
@@ -37,6 +38,8 @@ var data = require('./api.json').map(function parse(jsdoc) {
   } else {
     jsdoc.ctx.invocation = '';
   }
+=======
+>>>>>>>-1c07128
 
   return jsdoc;
 });
